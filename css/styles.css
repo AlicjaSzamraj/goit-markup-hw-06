@@ -561,3 +561,14 @@ img {
   color: var(--dark_grey1);
   margin-bottom: 16px;
 }
+.contact-form {
+  margin-bottom: 8px;
+}
+.contact-label {
+  font-size: 12px;
+  line-height: 1, 17;
+  letter-spacing: 0, 04em;
+  color: #8e8f99;
+  display: block;
+  margin-bottom: 4px;
+}
