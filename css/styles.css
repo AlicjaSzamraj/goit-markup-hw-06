@@ -511,6 +511,9 @@ img {
 .form {
   display: flex;
 }
+input {
+  gap: 24px;
+}
 .input {
   width: 264px;
   height: 40px;
@@ -546,4 +549,7 @@ img {
 }
 .icon-send {
   margin-left: 16px;
+}
+.form-container {
+  padding-left: 80px;
 }
