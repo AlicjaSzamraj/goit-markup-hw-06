@@ -616,3 +616,9 @@ img {
 .comment-area:focus {
   border-color: var(--blue1);
 }
+.checkbox {
+  margin-bottom: 24px;
+}
+.checkbox-input {
+  
+}
