@@ -507,3 +507,7 @@ img {
   position: relative;
   overflow: hidden;
 }
+
+.form {
+  display: flex;
+}
