@@ -575,6 +575,9 @@ img {
 .input-icons {
   position: relative;
 }
+.input-icons:focus-within .icon-contacts {
+  fill: var(--blue1);
+}
 .contact-input {
   width: 100%;
   height: 40px;
