@@ -622,12 +622,18 @@ img {
 .checkbox {
   margin-bottom: 24px;
 }
-.label-privacy {
+.modal-check-text {
   display: block;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+}
+
+.modal-check:checked + .modal-check-text span {
+  background-color: var(--blue2);
+  fill: var(--white2);
+  border: none;
 }
 .span-label {
   width: 16px;
