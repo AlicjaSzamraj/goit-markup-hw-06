@@ -508,7 +508,6 @@ img {
   position: relative;
   overflow: hidden;
 }
-
 .form {
   display: flex;
   gap: 24px;
@@ -528,9 +527,6 @@ img {
 }
 .input::placeholder {
   color: var(--white1);
-}
-.input :required {
-  border-color: var(--white1);
 }
 .subscribe {
   min-width: 165px;
@@ -595,9 +591,6 @@ img {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-input:focus {
-  border-color: var(--blue1);
-}
-.contact-input:required {
   border-color: var(--blue1);
 }
 .icon-contacts {
